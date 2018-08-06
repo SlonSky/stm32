@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 6.2.0 x86_64-w64-mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -std=c99 -c -DSTM32F100RB -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\dev\stm32\bluetooth\stm_lib\inc -I..\..\..\..\..\dev\stm32\bluetooth\stm_lib -I..\..\..\..\..\dev\stm32\bluetooth\cmsis_boot -I..\..\..\..\..\dev\stm32 -I..\..\..\..\..\dev\stm32\bluetooth -I..\..\..\..\..\dev\stm32\bluetooth\cmsis">
+      <target file="stm32f10x_rcc.o" lastModified="15c06651ce4">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15bfe5e9880"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="15c06651735">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15bfe5e90b0"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="15c06651e99">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15bfe5e9880"/>
+      </target>
+      <target file="printf.o" lastModified="15c06651b59">
+         <source file="..\..\..\stdio\printf.c" lastModified="15bfe5e90b0"/>
+      </target>
+      <target file="startup_stm32f10x_md_vl.o" lastModified="15c0665162b">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="15bfe5e9880"/>
+      </target>
+      <target file="main.o" lastModified="15c0687eb72">
+         <source file="..\..\..\main.c" lastModified="15c0687d369"/>
+      </target>
+      <target file="syscalls.o" lastModified="15c06651fc4">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15bfe5e90b0"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="15c0665189b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15bfe5e9880"/>
+      </target>
+   </processor>
+</history>

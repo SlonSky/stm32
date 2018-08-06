@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 6.2.0 x86_64-w64-mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -std=c99 -c -DSTM32F100RB -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\dev\stm32\smt\cmsis -I..\..\..\..\..\dev\stm32 -I..\..\..\..\.. -I..\..\..\..\..\dev\stm32\smt\cmsis_boot -I..\..\..\..\..\dev\stm32\smt -I..\..\..\..\..\Slon\Documents -I..\..\..\..\..\dev\stm32\smt\stm_lib\inc -I..\..\..\..\..\Slon -I..\..\..\..\..\dev\stm32\smt\stm_lib">
+      <target file="startup_stm32f10x_md_vl.o" lastModified="1604c712264">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="15bfe5e9880"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="1604cb265b1">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="1604cb1f356"/>
+      </target>
+      <target file="syscalls.o" lastModified="1604c7173ec">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15bfe5e90b0"/>
+      </target>
+      <target file="adc.o" lastModified="1604cb4b2ea">
+         <source file="..\..\..\..\..\..\Slon\Documents\adc.c" lastModified="1604cb48c88"/>
+      </target>
+      <target file="printf.o" lastModified="1604c715072">
+         <source file="..\..\..\stdio\printf.c" lastModified="15bfe5e90b0"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1604c712ceb">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15bfe5e90b0"/>
+      </target>
+      <target file="main.o" lastModified="1604cb4a7de">
+         <source file="..\..\..\main.c" lastModified="1604cafd04d"/>
+      </target>
+      <target file="usart1.o" lastModified="1604c7190f2">
+         <source file="..\..\..\..\..\..\Slon\Documents\usart1.c" lastModified="1604c4965ac"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1604c7137d3">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15bfe5e9880"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1604c7166d7">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15bfe5e9880"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1604c715b1f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15bfe5e9880"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,43 @@
+I am developing a function to read the external ADC value and write it on the LCD
+ PIC16F628A.
+ 
+Dear ric, I want to convert that despite the ADC0804 be a whole number , I'll use function to convert the digital value into analog , resulting in Float:
+ 
+( Vref / 2^8  ) * InputADC
+////////////////////////////////
+0.0195 volts =>  0b00000001 (Input Decimal 1)
+0.0390 volts  => 0b00000010 (Input Decimal2)
+0.0585 volts =>  0b00000011 (Input Decimal3)
+...........................
+..........................
+5 volts => 0b11111111 (Input Decial 255)
+///////////////////////////
+ 
+-----------------------------------------------------
+ 
+ 
+I used this function and it worked :
+ 
+
+char convert_floatchar(float valor)
+{
+float f1,f2;
+int i1,i2;
+char saida[10];
+ 
+f1=floor(valor);
+f2=valor - f1;
+i1 = (int)f1;
+i2 = (int)100*f2;
+sprintf(saida,"%d,%d", i1,i2);
+return (saida);
+}
+ 
+
+Dear NKurzman the problem was the conversion , but the function I mentioned is working .
+ 
+ 
+Dear Cobusve Accuracy is already low , if I round was worse. With the function char convert_floatchar(float valor) it is great.
+ 
+ 
+Dear jtemples Yes, I intend to write the float value in the LCD.

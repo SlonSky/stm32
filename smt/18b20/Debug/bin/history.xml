@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="6.3.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=18b20.map -O0 --gc-sections -LD:\software\CoIDE\configuration\ProgramData\18b20 -TD:\software\CoIDE\configuration\ProgramData\18b20/link.ld -g">
+      <target file="18b20.elf" lastModified="1604cb4bbe0">
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="1604c712264"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1604c712ceb"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1604c7137d3"/>
+         <source file="..\obj\main.o" lastModified="1604cb4a7de"/>
+         <source file="..\obj\printf.o" lastModified="1604c715072"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1604c715b1f"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="1604cb265b1"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1604c7166d7"/>
+         <source file="..\obj\syscalls.o" lastModified="1604c7173ec"/>
+         <source file="..\obj\adc.o" lastModified="1604cb4b2ea"/>
+         <source file="..\obj\usart1.o" lastModified="1604c7190f2"/>
+      </target>
+   </processor>
+</history>
